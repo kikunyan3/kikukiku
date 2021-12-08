@@ -1,0 +1,55 @@
+/* 各ページごとのCSS要素を書きます */
+
+.sec1 {
+    padding: 100px 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec1__title {
+    position: relative;
+    top: 180px;
+    height: auto;
+}
+
+.sec2 {
+    padding: 32px 5%;
+}
+
+.rotateBackGround {
+    transform: matrix(0.99, 0.12, -0.12, 0.99, 0, 0);
+    background: #F0F0F0;
+}
+
+.rotateBackGround:nth-child(n) {
+    transform: none;
+
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__element {
+    max-width: 300px;
+}
+
+.feature__title {
+    margin: 32px 0 12px 0;
+    text-align: center;
+}
+
+.sec3 {
+    padding: 32px 5%;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #9F9F9F;
+    border-radius: 16px;
+}
+
+.card__content {
+    padding: 14px 16px;
+}
