@@ -15,15 +15,6 @@
 
 .sec2 {
     padding: 120px 0;
-}
-
-.rotateBackGround {
-    transform: matrix(0.99, 0.12, -0.12, 0.99, 0, 0);
-    background: #F0F0F0;
-}
-
-.rotateBackGround:nth-child(n) {
-    transform: none;
 
 }
 
