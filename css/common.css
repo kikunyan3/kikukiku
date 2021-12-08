@@ -40,10 +40,10 @@ Typography
 }
 
 .h3 {
-    font-style: 24px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .text {
-    line-height: 1.5;
+    line-height: 1.7;
 }

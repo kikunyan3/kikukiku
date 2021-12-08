@@ -9,11 +9,12 @@
 .sec1__title {
     position: relative;
     top: 180px;
-    height: auto;
+    height: fit-content;
+    border-bottom: 4px solid #FCD8DA;
 }
 
 .sec2 {
-    padding: 32px 5%;
+    padding: 120px 0;
 }
 
 .rotateBackGround {
@@ -28,11 +29,17 @@
 
 .feature {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature__image {
+    text-align: center;
 }
 
 .feature__element {
     max-width: 300px;
+    margin: 32px 8px;
 }
 
 .feature__title {
@@ -41,15 +48,32 @@
 }
 
 .sec3 {
-    padding: 32px 5%;
+    padding: 120px 0;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 300px;
+    width: calc(33% - 16px);
+    margin: 14px 8px;
     border: 1px solid #9F9F9F;
     border-radius: 16px;
 }
 
+.card__title {
+    margin-bottom: 14px;
+}
+
 .card__content {
     padding: 14px 16px;
+}
+
+.card__image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
 }

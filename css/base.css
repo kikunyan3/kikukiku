@@ -24,16 +24,33 @@ Header
 }
 
 .logo {
-    font-style: 42px;
+    font-size: 26px;
     font-weight: bold;
 }
 
+/* ----------------------- 
+
+content
+
+-----------------------*/
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ----------------------- 
+
+Header
+
+-----------------------*/
+
 .footer {
-    height: 100px;
+    height: 200px;
     background: #F0F0F0;
     text-align: center;
 }
 
-.fonnter__content {
-    line-height: 100px;
+.footer__content {
+    line-height: 200px;
 }
