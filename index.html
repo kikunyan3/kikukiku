@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/top.css">
+    <!-- JS読み込み-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="js/postcode.js"></script>
     <title>猫との日常</title>
 </head>
 <body class="text_color">
@@ -110,6 +116,18 @@
                     
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="sec4">
+        <div class="container">
+            <form action="">
+                <p>
+                郵便番号<input type="text" id="post_code">
+                <input type="submit" id="submit" value="住所検索">
+                </p>
+                <p>都道府県<input type="text" id="prefecture"></p>
+            </form>
+            <p id="test"></p>
         </div>
     </section>
     </main>
